@@ -45,9 +45,9 @@ dev = [
 [project.urls]
 Homepage = "https://developer.brainus.lk"
 Documentation = "https://developer.brainus.lk/docs"
-Repository = "https://github.com/brainus/brainus-ai-python"
-Issues = "https://github.com/brainus/brainus-ai-python/issues"
-Changelog = "https://github.com/brainus/brainus-ai-python/blob/main/CHANGELOG.md"
+Repository = "https://github.com/BrainUsLK/brainus-ai-python"
+Issues = "https://github.com/BrainUsLK/brainus-ai-python/issues"
+Changelog = "https://github.com/BrainUsLK/brainus-ai-python/blob/main/CHANGELOG.md"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/brainus_ai"]
