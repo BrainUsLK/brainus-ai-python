@@ -45,7 +45,7 @@ class BrainusAI:
             max_retries: Maximum number of retry attempts for failed requests
         """
         if not api_key or not api_key.startswith("brainus_"):
-            raise ValueError("Invalid API key format. Expected format: brainus_...")
+            raise AuthenticationError("Invalid API key format. Expected format: brainus_...")
 
         self.api_key = api_key
         self.base_url = base_url.rstrip("/")
