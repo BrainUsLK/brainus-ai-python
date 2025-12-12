@@ -9,7 +9,7 @@ description = "Official Python SDK for Brainus AI - RAG-powered educational cont
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Brainus Team", email = "dev@brainus.lk"}
+    {name = "BrainUs Team", email = "developers@brainus.lk"}
 ]
 requires-python = ">=3.11"
 classifiers = [
