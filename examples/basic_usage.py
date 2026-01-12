@@ -37,7 +37,7 @@ async def main():
         response = await client.query(
             query="Explain inheritance in programming",
             store_id="your_store_id",  # Optional
-            model="gemini-2.5-flash",  # Optional
+            model="brainusai-thinking",  # Optional
             filters=QueryFilters(subject="ICT", grade="12"),
         )
         print(f"Answer: {response.answer[:200]}...\n")
@@ -67,6 +67,18 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

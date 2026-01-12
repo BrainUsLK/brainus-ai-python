@@ -93,7 +93,7 @@ class BrainusAI:
             ...     query="What is Object-Oriented Programming?",
             ...     store_id="abc123",
             ...     filters=QueryFilters(subject="ICT", grade="12"),
-            ...     model="gemini-2.5-flash"
+            ...     model="brainusai-thinking"
             ... )
             >>> print(response.answer)
             >>> for citation in response.citations:
@@ -230,6 +230,18 @@ class BrainusAI:
     async def __aexit__(self, *args: Any) -> None:
         """Async context manager exit."""
         await self.close()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
